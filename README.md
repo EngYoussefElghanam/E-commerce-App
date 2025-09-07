@@ -44,8 +44,6 @@ It’s built to showcase clean architecture, Bloc state management, and a profes
 
 ## 📱 Screens
 
-*(Add screenshots here — placeholders are listed below)*
-
 - ![Home Screen](assets/images/home.png)
 - ![Login Screen](assets/images/login.png) / ![Register Screen](assets/images/register.png) 
 - ![Favorites Screen](assets/images/favorites.png)  
