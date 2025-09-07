@@ -46,19 +46,21 @@ It’s built to showcase clean architecture, Bloc state management, and a profes
 
 *(Add screenshots here — placeholders are listed below)*
 
-- 🏠 HomePage  
-- 🔑 LoginPage / RegisterPage  
-- ❤️ FavoritesPage  
-- 🛒 CartPage  
-- 💳 CheckoutPage  
-- 🔔 NotificationPage  
-- 📦 MyOrdersPage  
-- 📍 MyAddressesPage  
-- 💳 MyPaymentMethodsPage  
-- ✏️ EditMyProfilePage  
-- 📂 CategoriesPage  
-- 📖 ProductDetailsPage  
-- 👤 AccountPage  
+- ![Home Screen](assets/images/home.png)
+- ![Login Screen](assets/images/login.png) / ![Register Screen](assets/images/register.png) 
+- ![Favorites Screen](assets/images/favorites.png)  
+- ![Cart Screen](assets/images/cart.png)  
+- ![Checkout Screen](assets/images/checkout.png) 
+- ![Notifications Screen](assets/images/notifications.png)  
+- ![My Orders Screen](assets/images/my_orders.png) 
+- ![My Addresses Screen](assets/images/address.png) 
+- ![My Payment Method Screen](assets/images/my_payment_methods.png) 
+- ![Edit Account Screen](assets/images/edit_account.png) 
+- ![Categories Screen](assets/images/categories.png)  
+- ![Product Details Screen](assets/images/product_details.png)  
+- ![My Profile Screen](assets/images/account_page.png)
+- ![Placed Order Screen](assets/images/placed_order.png)
+- ![Choose Payment Screen](assets/images/payment_choose.png)  
 
 ---
 
