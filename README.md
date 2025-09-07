@@ -13,6 +13,10 @@
 **E-commerce** is a modern **Flutter app powered by Firebase** that provides a seamless shopping experience with real-time cart management, secure authentication, order tracking, and profile customization.  
 It’s built to showcase clean architecture, Bloc state management, and a professional app structure.
 
+> ℹ️ **Note:** This app is a **portfolio project**. For simplicity and to avoid exposing sensitive keys, **Stripe/PayPal payment integration was intentionally omitted**.  
+> Instead, checkout uses **mock payments** with saved methods, demonstrating the flow without real transactions.
+
+
 ---
 
 ## ✨ Features
