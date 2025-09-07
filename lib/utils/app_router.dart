@@ -5,6 +5,8 @@ import 'package:ecommerce/Views/pages/category_page.dart';
 import 'package:ecommerce/Views/pages/checkout_page.dart';
 import 'package:ecommerce/Views/pages/custom_button_navbar.dart';
 import 'package:ecommerce/Views/pages/edit_profile_page.dart';
+import 'package:ecommerce/Views/pages/my_orders_page.dart';
+import 'package:ecommerce/Views/pages/notification_page.dart';
 import 'package:ecommerce/Views/pages/payment_methods.dart';
 import 'package:ecommerce/Views/pages/product_details_page.dart';
 import 'package:ecommerce/Views/pages/register_page.dart';
@@ -21,6 +23,7 @@ import 'package:ecommerce/view_models/ProductDetailsCubit/prouduct_details_cubit
 import 'package:ecommerce/view_models/add_location_cubit/add_location_cubit.dart';
 import 'package:ecommerce/view_models/auth_cubit/auth_cubit_cubit.dart';
 import 'package:ecommerce/view_models/categories_cubit/categories_cubit.dart';
+import 'package:ecommerce/view_models/orders_cubit/orders_cubit.dart';
 import 'package:ecommerce/view_models/product_cubit/product_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -172,7 +175,22 @@ class AppRouter {
             child: EditProfilePage(),
           ),
         );
-
+      case AppRoutes.myOrders:
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider(
+            create: (context) =>
+                OrdersCubit(orderService: OrderImpl())..watchOrders(),
+            child: const MyOrdersPage(),
+          ),
+        );
+      case AppRoutes.notificationPage:
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider(
+            create: (context) =>
+                OrdersCubit(orderService: OrderImpl())..watchOrders(),
+            child: const NotificationPage(),
+          ),
+        );
       // Add more routes as needed
       default:
         return MaterialPageRoute(

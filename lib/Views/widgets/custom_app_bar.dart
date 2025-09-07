@@ -1,5 +1,7 @@
 import 'package:ecommerce/Models/user_info.dart';
+import 'package:ecommerce/main.dart';
 import 'package:ecommerce/services/auth_service.dart';
+import 'package:ecommerce/utils/app_routes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -79,7 +81,8 @@ class _CustomAppBarState extends State<CustomAppBar> {
                         icon: Icon(CupertinoIcons.search, size: widthB * 0.07),
                       ),
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () => rootNavigatorKey.currentState
+                            ?.pushNamed(AppRoutes.notificationPage),
                         icon: Icon(CupertinoIcons.bell, size: widthB * 0.07),
                       ),
                     ],

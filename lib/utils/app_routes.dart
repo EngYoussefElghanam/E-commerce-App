@@ -10,4 +10,6 @@ class AppRoutes {
   static const String addressesPage = "/addressesPage";
   static const String paymentMethods = "/paymentMethods";
   static const String editProfile = "/editProfile";
+  static const String myOrders = "/myOrders";
+  static const String notificationPage = "/notificationPage";
 }

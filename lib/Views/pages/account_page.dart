@@ -138,7 +138,9 @@ class AccountPage extends StatelessWidget {
                       context,
                       icon: CupertinoIcons.cart_fill,
                       title: "My Orders",
-                      onTap: () {},
+                      onTap: () => rootNavigatorKey.currentState?.pushNamed(
+                        AppRoutes.myOrders,
+                      ),
                     ),
                     _buildProfileTile(
                       context,

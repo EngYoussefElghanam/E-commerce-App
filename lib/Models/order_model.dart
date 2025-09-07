@@ -16,7 +16,7 @@ class OrderModel {
     required this.productsQuantities,
     required this.totalPrice,
     required this.orderDate,
-    this.status = 'pending',
+    this.status = 'delivered',
     required this.shippingAddress,
     required this.paymentMethod,
   });
