@@ -83,7 +83,7 @@ lib/
 
 ### Steps
 # Clone repo
-git clone https://github.com/your-username/ecommerce-app.git
+git clone [https://github.com/EngYoussefElghanam/E-commerce-App.git]
 cd ecommerce-app
 
 # Install dependencies
@@ -91,7 +91,7 @@ flutter pub get
 
 # Run the app
 flutter run
-### 🛠 Tech Stack
+# 🛠 Tech Stack
 Frontend: Flutter 3.8, Material 3
 
 Backend: Firebase (Auth, Firestore, Storage)
@@ -100,7 +100,7 @@ State Management: Bloc & Cubit
 
 Other Tools: Google Sign-in, Facebook Auth, Lottie animations, Persistent Bottom Nav Bar
 
-### 📌 Roadmap
+# 📌 Roadmap
  Implement search functionality
 
  Fix Facebook authentication flow
@@ -111,7 +111,7 @@ Other Tools: Google Sign-in, Facebook Auth, Lottie animations, Persistent Bottom
 
  Add wishlist sharing
 
-### 🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome!
 
 Fork the project
@@ -127,6 +127,6 @@ Push to branch
 git push origin feature/my-feature
 Create a Pull Request
 
-### 📄 License
+# 📄 License
 This project is licensed under the MIT License.
 See the LICENSE file for details.
