@@ -44,21 +44,45 @@ It’s built to showcase clean architecture, Bloc state management, and a profes
 
 ## 📱 Screens
 
-- <img src="assets/images/home.png" alt="Home Screen" width="300"/>  
-- <img src="assets/images/login.png" alt="Login Screen" width="300"/> / <img src="assets/images/register.png" alt="Register Screen" width="300"/>  
-- <img src="assets/images/favorites.png" alt="Favorites Screen" width="300"/>  
-- <img src="assets/images/cart.png" alt="Cart Screen" width="300"/>  
-- <img src="assets/images/checkout.png" alt="Checkout Screen" width="300"/>  
-- <img src="assets/images/notifications.png" alt="Notifications Screen" width="300"/>  
-- <img src="assets/images/my_orders.png" alt="My Orders Screen" width="300"/>  
-- <img src="assets/images/address.png" alt="My Addresses Screen" width="300"/>  
-- <img src="assets/images/my_payment_methods.png" alt="My Payment Methods Screen" width="300"/>  
-- <img src="assets/images/edit_account.png" alt="Edit Account Screen" width="300"/>  
-- <img src="assets/images/categories.png" alt="Categories Screen" width="300"/>  
-- <img src="assets/images/product_details.png" alt="Product Details Screen" width="300"/>  
-- <img src="assets/images/account_page.png" alt="My Profile Screen" width="300"/>  
-- <img src="assets/images/placed_order.png" alt="Placed Order Screen" width="300"/>  
-- <img src="assets/images/payment_choose.png" alt="Choose Payment Screen" width="300"/>  
+### 🔑 Authentication
+<p align="center">
+  <img src="assets/images/login.png" alt="Login Screen" width="250"/>
+  <img src="assets/images/register.png" alt="Register Screen" width="250"/>
+  <img src="assets/images/account_page.png" alt="My Profile Screen" width="250"/>
+</p>
+
+### 🛍️ Shopping
+<p align="center">
+  <img src="assets/images/home.png" alt="Home Screen" width="250"/>
+  <img src="assets/images/categories.png" alt="Categories Screen" width="250"/>
+  <img src="assets/images/product_details.png" alt="Product Details Screen" width="250"/>
+</p>
+
+### ❤️ Favorites & Cart
+<p align="center">
+  <img src="assets/images/favorites.png" alt="Favorites Screen" width="250"/>
+  <img src="assets/images/cart.png" alt="Cart Screen" width="250"/>
+  <img src="assets/images/checkout.png" alt="Checkout Screen" width="250"/>
+</p>
+
+### 💳 Orders & Payments
+<p align="center">
+  <img src="assets/images/my_orders.png" alt="My Orders Screen" width="250"/>
+  <img src="assets/images/payment_choose.png" alt="Choose Payment Screen" width="250"/>
+  <img src="assets/images/my_payment_methods.png" alt="My Payment Methods Screen" width="250"/>
+</p>
+
+### 📦 Account Management
+<p align="center">
+  <img src="assets/images/address.png" alt="My Addresses Screen" width="250"/>
+  <img src="assets/images/edit_account.png" alt="Edit Account Screen" width="250"/>
+  <img src="assets/images/placed_order.png" alt="Placed Order Screen" width="250"/>
+</p>
+
+### 🔔 Notifications
+<p align="center">
+  <img src="assets/images/notifications.png" alt="Notifications Screen" width="250"/>
+</p>
 
 ---
 
